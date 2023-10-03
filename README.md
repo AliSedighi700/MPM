@@ -15,5 +15,5 @@ std::cout << " Welcome to my project!" << "\n" ;
 ```
 
 ### What has been done so far? 
-- [ ]  Creating the class. 
+- [x]  Creating the class. 
 - [ ]  implementing the JSON file.  
