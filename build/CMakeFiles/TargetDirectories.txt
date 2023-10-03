@@ -1,0 +1,3 @@
+/Users/ali/Desktop/MPM/build/CMakeFiles/MPM.dir
+/Users/ali/Desktop/MPM/build/CMakeFiles/edit_cache.dir
+/Users/ali/Desktop/MPM/build/CMakeFiles/rebuild_cache.dir
