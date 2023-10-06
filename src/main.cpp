@@ -4,8 +4,24 @@
 int main()
 {
     
-    eigenmatrix a(2,2) ;
- 
+    int rows; 
+		int columns; 
+
+		std::cout << "Please epecifiy the matrix dimension: " << "\n"; 
+
+    while(true)
+		{
+   	  std::cin >> rows ; 
+		  std::cin >> columns; 
+
+		  if(rows == columns)
+		  {
+		    break;
+		  }
+		}
+
+    eigenmatrix a(rows, columns); 
+
     std::vector<std::vector<int> > matrix1 = a.Matrixproduction();
     std::cout <<"The first matrix: " << "\n" ; 
     a.printmatrix(matrix1); 

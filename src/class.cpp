@@ -40,6 +40,14 @@ std::vector<std::vector<int> > eigenmatrix::Matrixproduction()
     int rows2 = matrix2.size();
     int columns2 = matrix2[0].size();
 
+
+		if(columns1 != rows2)
+		{
+
+		throw std::runtime_error("Uncompatinle matrices!"); 
+
+		}
+
     std::vector<std::vector<int> > result(rows1, std::vector<int>(columns2, 0));
 
     for (int i = 0; i < rows1; i++)
